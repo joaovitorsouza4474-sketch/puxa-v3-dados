@@ -1,0 +1,6 @@
+body { background:#000; color:#00ff88; font-family:monospace; text-align:center; }
+h1,h2{ text-shadow:0 0 10px #00ff88; }
+#login{ margin-top:150px; }
+input,button{ padding:10px;background:#000;border:1px solid #00ff88;color:#00ff88; }
+button:hover{ background:#00ff88;color:#000; }
+.card{ border:1px solid #00ff88;padding:20px;margin:20px;display:inline-block;width:300px; }

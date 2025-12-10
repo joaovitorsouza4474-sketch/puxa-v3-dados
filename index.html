@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PUXA.PP V3</title>
+    <link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+
+<div id="login">
+    <h1>PUXA.PP WEB PANEL</h1>
+    <input type="password" id="senha" placeholder="Senha: BOTV3">
+    <button onclick="login()">ENTRAR</button>
+    <p id="msg"></p>
+</div>
+
+<div id="painel" style="display:none">
+    <h1 class="titulo">PUXA.PP WEB PANEL V3</h1>
+
+    <div class="card">
+        <h2>Consultar CEP</h2>
+        <input id="cep">
+        <button onclick="consultarCEP()">Buscar</button>
+        <pre id="outCep"></pre>
+    </div>
+
+    <div class="card">
+        <h2>Meu IP</h2>
+        <button onclick="meuIP()">Ver</button>
+        <pre id="outIp"></pre>
+    </div>
+
+    <div class="card">
+        <h2>Clima</h2>
+        <input id="cidade">
+        <button onclick="clima()">Buscar</button>
+        <pre id="outClima"></pre>
+    </div>
+
+</div>
+
+<script src="/static/panel.js"></script>
+
+</body>
+</html>
